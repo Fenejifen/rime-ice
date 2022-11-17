@@ -33,7 +33,7 @@ switches:
     reset: 0
   - name: emoji
     states: [ 💀, 😄 ]
-    reset: 1
+    reset: 0
 
 
 # 输入引擎
