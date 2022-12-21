@@ -203,18 +203,18 @@ speller:
     # 韵母
     # - derive/ang/an/
     # - derive/an/ang/
-     - derive/eng/en/
-     - derive/en/eng/
-     - derive/in/ing/
-     - derive/ing/in/
+    - derive/eng/en/
+    - derive/en/eng/
+    - derive/in/ing/
+    - derive/ing/in/
     # - derive/ian/iang/
     # - derive/iang/ian/
     # - derive/uan/uang/
     # - derive/uang/uan/
     # - derive/ai/an/
     # - derive/an/ai/
-     - derive/ong/un/
-     - derive/un/ong/
+    - derive/ong/un/
+    - derive/un/ong/
     # - derive/ong/on/
     # - derive/iong/un/
     # - derive/un/iong/
