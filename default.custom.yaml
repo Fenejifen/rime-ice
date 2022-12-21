@@ -6,6 +6,8 @@ patch:
   # 方案列表
   schema_list:
     - schema: rime_ice
+    - schema: double_pinyin
+    - schema: double_pinyin_flypy
 
 
   # 候选词个数
@@ -16,6 +18,7 @@ patch:
   switcher:
     caption: 「方案选单」
     hotkeys:
+      # - F4
       # - Control+grave
       # - Control+Shift+grave
       - F4
@@ -25,7 +28,7 @@ patch:
       - ascii_punct
       - traditionalization
       - emoji
-    fold_options: false           # 呼出时是否折叠，多方案时建议折叠（true），一个方案建议展开（false）
+    fold_options: true            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
     abbreviate_options: true      # 折叠时是否缩写选项
     option_list_separator: ' / '  # 折叠时的选项分隔符
 
@@ -54,10 +57,8 @@ patch:
   key_binder/bindings:
     # 简繁切换
     - {when: always, accept: "Control+Shift+4", toggle: traditionalization}
-    - {when: always, accept: "Control+Shift+F", toggle: traditionalization}
-    - {when: always, accept: "Control+slash",   toggle: traditionalization}
     # 切换中英文标点
-    - {when: always, accept: "Control+Shift+A", toggle: ascii_punct}
+    - {when: always, accept: "Control+Shift+3", toggle: ascii_punct}
 
     # emacs_editing:
     # - { when: composing, accept: Control+p, send: Up }
@@ -85,6 +86,7 @@ patch:
     - { when: has_menu, accept: equal, send: Page_Down }
 
     # paging_with_comma_period: 翻页：, .
+    # 需要额外注释掉方案中 recognizer/patterns 下的 url_2 选项（这个会覆盖掉句号的行为）
     # - { when: paging, accept: comma, send: Page_Up }
     # - { when: has_menu, accept: period, send: Page_Down }
 
