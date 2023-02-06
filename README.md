@@ -20,4 +20,13 @@
 - `en` `in` `un` 的前后子音的模糊音
 - 清空了 `custom_phrase.txt` 用于自定义词语
 
----
+## 与上游分支合并方法
+
+参考自[合并两个不同远程仓库的Git命令](https://blog.csdn.net/fygkchina/article/details/125735243)
+
+1. 添加新的远程仓库 `git remote add upstream https://github.com/iDvel/rime-ice.git`
+2. 拉取上游代码 `git fetch upstream`
+3. 创建新分支 `git checkout -b upstream upstream/main`
+4. 切回主分支 `git checkout main`
+5. 合并分支 `git merge upstream`
+6. 打开VSCode等代码工具进行可视化分支合并，之后提交即可
