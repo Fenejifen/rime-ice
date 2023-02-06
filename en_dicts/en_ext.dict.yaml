@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-01-15"
+version: "2023-02-06"
 sort: by_weight
 ...
 # 一些杂项
@@ -39,7 +39,7 @@ Esc	Esc
 Eject	Eject
 
 
-# 月份（据说好像 5-7 月不要缩写 https://www.zhihu.com/question/29896678）
+# 月份（据说好像 5、6、7 月不要缩写 https://www.zhihu.com/question/29896678）
 January	January
 Jan.	Jan
 January	Jan
@@ -104,6 +104,71 @@ Saturday	Sat
 Sunday	Sunday
 Sun.	Sun
 Sunday	Sun
+
+
+# 生活大爆炸 & 老友记
+Sheldon	Sheldon
+Leonard	Leonard
+Penny	Penny
+Howard	Howard
+Rajesh	Rajesh
+Rachel	Rachel
+Monica	Monica
+Joey	Joey
+Ross	Ross
+Chandler	Chandler
+Phoebe	Phoebe
+
+
+# 补充的人名
+Griffiths	Griffiths
+Chapman	Chapman
+Walsh	Walsh
+Matthews	Matthews
+Patel	Patel
+Willie	Willie
+ChillSeph	ChillSeph
+Ernest	Ernest
+Phillip	Phillip
+Teresa	Teresa
+Doris	Doris
+Evelyn	Evelyn
+Cheryl	Cheryl
+Mildred	Mildred
+Katherine	Katherine
+Judith	Judith
+Janice	Janice
+Theresa	Theresa
+Kimberly	Kimberly
+Denise	Denise
+Irene	Irene
+Shirley	Shirley
+Cynthia	Cynthia
+Brenda	Brenda
+Kathleen	Kathleen
+Jacqueline	Jacqueline
+Wanda	Wanda
+Debra	Debra
+Lois	Lois
+Carolyn	Carolyn
+Tina	Tina
+Phyllis	Phyllis
+Norma	Norma
+Paula	Paula
+Frances	Frances
+Lillian	Lillian
+Kiwi	Kiwi
+Olivia	Olivia
+Ava	Ava
+Isabella	Isabella
+Sherlock	Sherlock
+Amelia	Amelia
+Sophia	Sophia
+Abigail	Abigail
+Liam	Liam
+Noah	Noah
+Jay	Jay
+Enya	Enya
 
 
 # 带权重的系列
@@ -209,6 +274,8 @@ Gross Domestic Product	GrossDomesticProduct
 LOL	LOL
 League of Legends	LOL
 League of Legends	LeagueofLegends
+Laugh Out Loudly	LOL
+Laugh Out Loudly	LaughOutLoudly
 Pro Max	ProMax
 Aeron	Aeron
 Aeron Chair	AeronChair
@@ -269,7 +336,6 @@ CentOS	CentOS
 Debian	Debian
 BBC	BBC
 DataGrip	DataGrip
-Benjamin	Benjamin
 Alpha	Alpha
 AlphaGo	AlphaGo
 AlphaFold	AlphaFold
@@ -344,6 +410,8 @@ IntelliJ IDEA	IntelliJIDEA
 IntelliJ IDEA Community	IntelliJIDEACommunity
 IntelliJ IDEA Ultimate	IntelliJIDEAUltimate
 IDEA	IDEA
+IDEA Community	IDEACommunity
+IDEA Ultimate	IDEAUltimate
 IDE	IDE
 NTR	NTR
 Notion	Notion
@@ -417,7 +485,6 @@ Gitea	Gitea
 GitBook	GitBook
 Gboard	Gboard
 Access	Access
-Ajax	Ajax
 Bug	Bug
 BMW	BMW
 Bayerische Motoren Werke AG	BMW
@@ -432,7 +499,6 @@ Chief Technology Officer	CTO
 Chief Technology Officer	ChiefTechnologyOfficer
 Coding	Coding
 Django	Django
-Edge	Edge
 Excel	Excel
 Flask	Flask
 Facebook	Facebook
@@ -768,7 +834,8 @@ Speedtest	Speedtest
 Spotify	Spotify
 Spotlight	Spotlight
 Squirrel	Squirrel
-SSLEdge	SSLEdge
+SSL	SSL
+Edge	Edge
 StackSocial	StackSocial
 Sublime Text	SublimeText
 Surge	Surge
@@ -843,8 +910,9 @@ HTTPS	HTTPS
 Hypertext Transfer Protocol Secure	HTTPS
 Hypertext Transfer Protocol Secure	HypertextTransferProtocolSecure
 WSGI	WSGI
-Bitcoin	Bitcoin
 BTC	BTC
+Bitcoin	BTC
+Bitcoin	Bitcoin
 template	template
 IMDb	IMDb
 gank	gank
@@ -1091,8 +1159,6 @@ Frequently Asked Question	FrequentlyAskedQuestion
 Panamera	Panamera
 FaceTime	FaceTime
 FaceTime Audio	FaceTimeAudio
-Jordan	Jordan
-Thompson	Thompson
 LMAO	LMAO
 Laugh My Ass Off	LMAO
 Laugh My Ass Off	LaughMyAssOff
@@ -1196,6 +1262,8 @@ Globally Unique Identifier	GloballyUniqueIdentifier
 APFS	APFS
 Apple File System	APFS
 NTFS	NTFS
+New Technology File System	NTFS
+New Technology File System	NewTechnologyFileSystem
 Microsoft NTFS	NTFS
 Microsoft NTFS	MicrosoftNTFS
 txt	txt
@@ -1419,6 +1487,7 @@ Peace & Love	PeaceLove
 Peace & Love	PeaceandLove
 Peace and Love	PeaceandLove
 Liquid	Liquid
+LCD	LCD
 Liquid Crystal Display	LCD
 Liquid Crystal Display	LiquidCrystalDisplay
 Emotional Damage	EmotionalDamage
@@ -1720,6 +1789,7 @@ Scotland	Scotland
 Scots	Scots
 Scottish	Scottish
 Simplified Chinese	SimplifiedChinese
+Traditional Chinese	TraditionalChinese
 Singapore	Singapore
 Spain	Spain
 Spanish	Spanish
@@ -1729,7 +1799,6 @@ Swedish	Swedish
 Swiss	Swiss
 Thai	Thai
 Thailand	Thailand
-Traditional Chinese	TraditionalChinese
 United Kingdom	UnitedKingdom
 USA	USA
 The United States of America	USA
@@ -1764,3 +1833,60 @@ DNS over HTTPS	DNSoverHTTPS
 HK	HK
 Hong Kong	HK
 Hong Kong	HongKong
+Party Animals	PartyAnimals
+clipboard	clipboard
+ABS	ABS
+Anti-lock Braking System	ABS
+Anti-lock Braking System	AntilockBrakingSystem
+ADHD	ADHD
+attention deficit hyperactivity disorder	ADHD
+attention deficit hyperactivity disorder	attentiondeficithyperactivitydisorder
+BBQ	BBQ
+barbecue	BBQ
+BBS	BBS
+Bulletin Board System	BBS
+Bulletin Board System	BulletinBoardSystem
+Chrono	Chrono
+Widevine	Widevine
+Google Ads	GoogleAds
+Valhalla	Valhalla
+flies	flies
+KFC	KFC
+AWP	AWP
+Arctic Warfare Police	AWP
+Arctic Warfare Police	ArcticWarfarePolice
+CLI	CLI
+Command-Line Interface	CLI
+Command-Line Interface	CommandLineInterface
+Dnsmasq	Dnsmasq
+clique	clique
+candid	candid
+DOS	DOS
+Disk Operating System	DOS
+Disk Operating System	DiskOperatingSystem
+diss	diss
+USDT	USDT
+Tether	Tether
+Lua	Lua
+MacType	MacType
+Alipay	Alipay
+WeChat Pay	WeChatPay
+Google Maps	GoogleMaps
+Google Keep	GoogleKeep
+Google Docs	GoogleDocs
+UPnP	UPnP
+Universal Plug and Play	UPnP
+Universal Plug and Play	UniversalPlugandPlay
+DoS	DoS
+denial-of-service attack	DoS
+denial-of-service attack	denialofserviceattack
+DDoS	DDoS
+distributed denial-of-service attack	DDoS
+distributed denial-of-service attack	distributeddenialofserviceattack
+lullaby	lullaby
+LibreWolf	LibreWolf
+miscarry	miscarry
+WebRTC	WebRTC
+WebDAV	WebDAV
+SwiftUI	SwiftUI
+watermarking	watermarking
